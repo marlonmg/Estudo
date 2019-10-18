@@ -17,7 +17,7 @@ namespace CursoCSharp.EstruturaDeControle
             entrada = Console.ReadLine();
             double.TryParse(entrada, out double nota);
 
-            Console.WriteLine("Bom comportamento? S/N");
+            Console.WriteLine("Bom comportamento? /N");
             entrada = Console.ReadLine();
 
             bomComportamento = entrada.ToLower() == "s";
