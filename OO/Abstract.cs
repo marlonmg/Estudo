@@ -12,7 +12,7 @@ namespace CursoCSharp.OO
 
             public string Tocar()
             {
-                return "Trim....trim....trim...";
+                return "Trim....trim......trim......";
             }
         }
         public class Samsung : Celular
